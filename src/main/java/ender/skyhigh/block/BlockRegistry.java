@@ -19,4 +19,5 @@ public class BlockRegistry {
         Registry.register(Registry.BLOCK, new Identifier("skyhigh","basic_forge"), BASIC_FORGE);
         Registry.register(Registry.ITEM, new Identifier("skyhigh", "basic_forge"), new BlockItem(BASIC_FORGE, new FabricItemSettings().group(ItemGroup.MISC)));
     }
+    //test
 }
