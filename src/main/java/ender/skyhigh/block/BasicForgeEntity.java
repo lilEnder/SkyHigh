@@ -1,26 +1,35 @@
 package ender.skyhigh.block;
 
+import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.inventory.Inventories;
+import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.util.collection.DefaultedList;
 
-public class BasicForgeEntity extends BlockEntity {
+public class BasicForgeEntity extends BlockEntity implements BasicForgeInventory {
 
-    private int number = 7;
+
+    private final DefaultedList<ItemStack> items = DefaultedList.ofSize(2, ItemStack.EMPTY);
 
     public BasicForgeEntity() {
         super(BlockRegistry.BASIC_FORGE_ENTITY);
     }
 
-    public CompoundTag toTag(CompoundTag tag) {
-        super.toTag(tag);
-
-        tag.putInt("number", number);
-
-        return tag;
+    @Override
+    public DefaultedList<ItemStack> getItems() {
+        return items;
     }
 
-    public void fromTag(CompoundTag tag) {
-        super.fromTag(tag);
-        number = tag.getInt("number");
+
+    public void fromTag(BlockState state, CompoundTag tag) {
+        super.fromTag(state, tag);
+        Inventories.fromTag(tag, items);
+    }
+
+    @Override
+    public CompoundTag toTag(CompoundTag tag) {
+        Inventories.toTag(tag, items);
+        return super.toTag(tag);
     }
 }
