@@ -17,6 +17,7 @@ public class BlockRegistry {
     public static final BasicForge BASIC_FORGE = new BasicForge();
 
     public static BlockEntityType<BasicForgeEntity> BASIC_FORGE_ENTITY;
+    public static BlockEntityType<BoxBlockEntity> BOX_BLOCK_ENTITY;
 
     public static void init() {
 

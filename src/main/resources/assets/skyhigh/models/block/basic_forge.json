@@ -1,0 +1,12 @@
+{
+  "parent": "block/orientable_with_bottom",
+  "textures": {
+    "particle": "skyhigh:block/basic_forge_front",
+    "down": "skyhigh:block/basic_forge_bottom",
+    "up": "skyhigh:block/basic_forge_top",
+    "north": "skyhigh:block/basic_forge_front",
+    "east": "skyhigh:block/basic_forge_side",
+    "south": "skyhigh:block/basic_forge_side",
+    "west": "skyhigh:block/basic_forge_side"
+  }
+}

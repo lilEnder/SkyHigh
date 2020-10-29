@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "skyhigh:block/prime_block" }
+    "": { "model": "skyhigh:block/basic_forge" }
   }
 }
