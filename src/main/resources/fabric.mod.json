@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "skyhigh",
+  "version": "${version}",
+  "name": "Skyhigh",
+  "description": "a mod about things",
+  "authors": [
+    "Ender"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/skyhigh/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ender.skyhigh.client.SkyhighClient"
+    ],
+    "main": [
+      "ender.skyhigh.Skyhigh"
+    ]
+  },
+  "mixins": [
+    "skyhigh.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.5+build.213",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
