@@ -1,3 +1,2 @@
-# SkyHigh
-A little side project i have.
-My first fabric mod.
+# SkyHigh - DownLow
+A mod about forging new alloys form exising materials.
