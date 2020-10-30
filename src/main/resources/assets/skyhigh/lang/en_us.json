@@ -1,5 +1,9 @@
 {
+  "comment": "Items",
   "item.skyhigh.prime_ingot": "Prime Ingot",
+  "item.skyhigh.prime_shard": "Prime Shard",
+
+  "comment": "Blocks",
   "block.skyhigh.prime_block": "Prime Block",
   "block.skyhigh.basic_forge": "Basic Forge"
 }

@@ -8,7 +8,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ItemRegistry {
     public static final Item PRIME_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+    public static final Item PRIME_SHARD = new Item(new FabricItemSettings().group(ItemGroup.MISC));
     public static void init() {
         Registry.register(Registry.ITEM, new Identifier("skyhigh", "prime_ingot"), PRIME_INGOT);
+        Registry.register(Registry.ITEM, new Identifier("skyhigh", "prime_shard"), PRIME_SHARD);
     }
 }
