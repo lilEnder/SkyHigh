@@ -1,7 +1,7 @@
 package ender.skyhigh.client;
 
 import ender.skyhigh.Skyhigh;
-import ender.skyhigh.block.BoxScreen;
+import ender.skyhigh.block.box.BoxScreen;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

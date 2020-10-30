@@ -1,4 +1,4 @@
-package ender.skyhigh.block;
+package ender.skyhigh.block.basic.forge;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;

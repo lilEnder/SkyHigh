@@ -9,6 +9,10 @@
   "comment": "Blocks",
   "block.skyhigh.prime_block": "Prime Block",
   "block.skyhigh.basic_forge": "Basic Forge",
+  "block.skyhigh.voidstone": "Voidstone",
+  "block.skyhigh.pirm_steel_block": "Pirm Steel Block",
+  "block.skyhigh.draken_steel_block": "Draken Steel Block",
+  "block.skyhigh.oblivion_steel_block": "Oblivion Steel Block",
 
   "comment": "Creative Tabs",
   "itemGroup.skyhigh.blocks": "Skyhigh Blocks",

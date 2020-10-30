@@ -1,4 +1,4 @@
-package ender.skyhigh.block;
+package ender.skyhigh.block.box;
 
 import ender.skyhigh.Skyhigh;
 import net.minecraft.entity.player.PlayerEntity;

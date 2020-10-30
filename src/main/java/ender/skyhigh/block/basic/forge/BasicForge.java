@@ -1,5 +1,6 @@
-package ender.skyhigh.block;
+package ender.skyhigh.block.basic.forge;
 
+import ender.skyhigh.block.box.BoxBlockEntity;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;

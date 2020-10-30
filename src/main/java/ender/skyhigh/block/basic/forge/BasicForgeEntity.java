@@ -1,5 +1,6 @@
-package ender.skyhigh.block;
+package ender.skyhigh.block.basic.forge;
 
+import ender.skyhigh.block.BlockRegistry;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.inventory.Inventories;

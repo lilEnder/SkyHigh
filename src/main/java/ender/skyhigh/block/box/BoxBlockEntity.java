@@ -1,6 +1,7 @@
-package ender.skyhigh.block;
+package ender.skyhigh.block.box;
 
 import ender.skyhigh.Skyhigh;
+import ender.skyhigh.block.basic.forge.BasicForgeInventory;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;

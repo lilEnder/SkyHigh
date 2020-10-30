@@ -1,4 +1,4 @@
-package ender.skyhigh.block;
+package ender.skyhigh.block.box;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;

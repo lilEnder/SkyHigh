@@ -1,8 +1,8 @@
 package ender.skyhigh;
 
-import ender.skyhigh.block.BoxBlock;
-import ender.skyhigh.block.BoxBlockEntity;
-import ender.skyhigh.block.BoxScreenHandler;
+import ender.skyhigh.block.box.BoxBlock;
+import ender.skyhigh.block.box.BoxBlockEntity;
+import ender.skyhigh.block.box.BoxScreenHandler;
 import ender.skyhigh.enchantment.EnchantmentRegistry;
 import ender.skyhigh.item.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
