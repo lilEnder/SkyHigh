@@ -2,8 +2,15 @@
   "comment": "Items",
   "item.skyhigh.prime_ingot": "Prime Ingot",
   "item.skyhigh.prime_shard": "Prime Shard",
+  "item.skyhigh.pirm_steel_ingot": "Pirm Steel Ingot",
+  "item.skyhigh.draken_steel_ingot": "Draken Steel Ingot",
+  "item.skyhigh.oblivion_steel_ingot": "Oblivion Steel Ingot",
 
   "comment": "Blocks",
   "block.skyhigh.prime_block": "Prime Block",
-  "block.skyhigh.basic_forge": "Basic Forge"
+  "block.skyhigh.basic_forge": "Basic Forge",
+
+  "comment": "Creative Tabs",
+  "itemGroup.skyhigh.blocks": "Skyhigh Blocks",
+  "itemGroup.skyhigh.items": "Skyhigh Items"
 }

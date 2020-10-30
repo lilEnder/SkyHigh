@@ -1,5 +1,6 @@
 package ender.skyhigh.block;
 
+import ender.skyhigh.utill.CreativeTabs;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -17,14 +18,13 @@ public class BlockRegistry {
     public static final BasicForge BASIC_FORGE = new BasicForge();
 
     public static BlockEntityType<BasicForgeEntity> BASIC_FORGE_ENTITY;
-    public static BlockEntityType<BoxBlockEntity> BOX_BLOCK_ENTITY;
 
     public static void init() {
 
         Registry.register(Registry.BLOCK, new Identifier("skyhigh","prime_block"), PRIME_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier("skyhigh", "prime_block"), new BlockItem(PRIME_BLOCK, new FabricItemSettings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier("skyhigh", "prime_block"), new BlockItem(PRIME_BLOCK, new FabricItemSettings().group(CreativeTabs.SKYHIGH_BLOCKS)));
         Registry.register(Registry.BLOCK, new Identifier("skyhigh","basic_forge"), BASIC_FORGE);
-        Registry.register(Registry.ITEM, new Identifier("skyhigh", "basic_forge"), new BlockItem(BASIC_FORGE, new FabricItemSettings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier("skyhigh", "basic_forge"), new BlockItem(BASIC_FORGE, new FabricItemSettings().group(CreativeTabs.SKYHIGH_BLOCKS)));
 
         Registry.register(Registry.BLOCK_ENTITY_TYPE, "skyhigh:basic_forge", BlockEntityType.Builder.create(BasicForgeEntity::new, BASIC_FORGE).build(null));
 

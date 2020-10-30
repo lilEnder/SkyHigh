@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures":   {
-    "layer0": "skyhigh:item/prime_shard"
+    "layer0": "skyhigh:item/prime_ingot"
   }
 }

@@ -1,5 +1,6 @@
 package ender.skyhigh.block;
 
+import ender.skyhigh.Skyhigh;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -17,7 +18,7 @@ public class BoxBlockEntity extends BlockEntity implements NamedScreenHandlerFac
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(9, ItemStack.EMPTY);
 
     public BoxBlockEntity() {
-        super(BlockRegistry.BOX_BLOCK_ENTITY);
+        super(Skyhigh.BOX_BLOCK_ENTITY);
     }
 
 
