@@ -1,6 +1,5 @@
 package ender.skyhigh.block.basic.forge;
 
-import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.Inventory;
@@ -45,7 +44,7 @@ public interface  BasicForgeInventory extends  Inventory {
     default ItemStack removeStack(int slot, int count) {
         ItemStack result = Inventories.splitStack(getItems(), slot, count);
         if (!result.isEmpty()) {
-            this.markDirty();
+            markDirty();
         }
         return result;
     }
@@ -71,7 +70,7 @@ public interface  BasicForgeInventory extends  Inventory {
 
     @Override
     default void markDirty() {
-
+        // Override if you want behavior.
     }
 
     @Override

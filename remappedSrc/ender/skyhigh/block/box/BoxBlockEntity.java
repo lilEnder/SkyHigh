@@ -16,7 +16,7 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.collection.DefaultedList;
 
 public class BoxBlockEntity extends BlockEntity implements NamedScreenHandlerFactory, BasicForgeInventory {
-    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(6, ItemStack.EMPTY);
+    private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(9, ItemStack.EMPTY);
 
     public BoxBlockEntity() {
         super(Skyhigh.BOX_BLOCK_ENTITY);
